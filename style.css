@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #2f2f2f;
+}
+.container {
+    background-color: rgb(59, 53, 53);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    height: 568px;
+    width: 450px;
+    display: flex;
+    margin: 55px auto;
+}
+
+.main {
+    border-radius: 10px;
+    height: 120px;
+    width: 449px;
+}
+
+.main input {
+    border-radius: 10px;
+    height: 120px;
+    width: 449px;
+    font-size: 40px;
+    text-align: right;
+}
+
+.first {
+    margin: 20px;
+    width: 449px;
+    height: 65px;
+}
+
+.first input {
+    margin: 3px 10px;
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.second {
+    margin: 20px;
+    width: 449px;
+    height: 65px;
+} 
+
+.second input {
+    margin: 3px 10px;
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.third {
+    margin: 20px;
+    width: 449px;
+    height: 65px;
+}
+
+.third input {
+    margin: 3px 10px;
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.fourth {
+    margin: 20px;
+    width: 449px;
+    height: 65px;
+}
+
+.fourth input {
+    margin: 3px 10px;
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fifth {
+    margin: 20px;
+    width: 449px;
+    height: 65px;
+}
+
+.fifth input {
+    margin: 3px 10px;
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
