@@ -2,105 +2,80 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
+    text-decoration: none;
 }
 
-body{
+body {
+    font-family: 'Courier New', Courier, monospace;
     background-color: #2f2f2f;
 }
-.container {
-    background-color: rgb(59, 53, 53);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.377);
-    border-radius: 10px;
-    height: 568px;
-    width: 450px;
-    display: flex;
-    margin: 55px auto;
-}
 
-.main {
-    border-radius: 10px;
-    height: 120px;
-    width: 449px;
+.container {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.377);
+    background-color: #2f2f2f;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+    margin: 60px auto;
+    padding-bottom: 3px;
 }
 
 .main input {
-    border-radius: 10px;
-    height: 120px;
-    width: 449px;
+    border-radius: 8px;
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    margin: auto;
     font-size: 40px;
     text-align: right;
 }
 
-.first {
-    margin: 20px;
-    width: 449px;
-    height: 65px;
-}
-
-.first input {
-    margin: 3px 10px;
-    height: 60px;
-    width: 80px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.second {
-    margin: 20px;
-    width: 449px;
-    height: 65px;
-} 
-
-.second input {
-    margin: 3px 10px;
-    height: 60px;
-    width: 80px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-.third {
-    margin: 20px;
-    width: 449px;
-    height: 65px;
-}
-
-.third input {
-    margin: 3px 10px;
-    height: 60px;
-    width: 80px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-
-.fourth {
-    margin: 20px;
-    width: 449px;
-    height: 65px;
-}
-
-.fourth input {
-    margin: 3px 10px;
-    height: 60px;
-    width: 80px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
+.first,
+.second,
+.third,
+.fourth,
 .fifth {
-    margin: 20px;
-    width: 449px;
-    height: 65px;
+    margin: auto;
+    max-width: 450px;
+    justify-content: space-evenly;
 }
 
+.first input,
+.second input,
+.third input,
+.fourth input,
 .fifth input {
-    margin: 3px 10px;
+    background: transparent;
+    color: beige;
+    cursor: pointer;
+    font-size: 20px;
     height: 60px;
     width: 80px;
-    font-size: 20px;
-    cursor: pointer;
+    margin: 10px 8px;
 }
 
+
+@media(max-width:400px) {
+
+    .container {
+        margin: 0px;
+    }
+
+    .main input {
+        width: 375px;
+    }
+
+    .first input,
+    .second input,
+    .third input,
+    .fourth input,
+    .fifth input {
+        height: 60px;
+        width: 60px;
+        margin: 10px 14px;
+    }
+
+
+}

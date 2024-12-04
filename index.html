@@ -10,46 +10,46 @@
 </head>
 
 <body>
+
     <div class="container">
-        <form action="">
-            <div class="main">
-                <input type="text" name="display" >
-            </div>
-            <div class="first">
-                <input id = "AC" type="button" value="AC">
-                <input type="button" value=".">
-                <input type="button" value="%">
-                <input type="button" value="/">
-            </div>
+        <div class="main">
+            <input id="text" type="text">
+        </div>
 
-            <div class="second">
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
-                <input type="button" value="*">
-            </div>
+        <div class="first">
+            <input class="button" type="button" value="AC" onclick="Run()">
+            <input class="button" type="button" value="." onclick="Run()">
+            <input type="button" value="%" onclick="Run()">
+            <input type="button" value="/" onclick="Run()">
+        </div>
 
-            <div class="third">
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="-">
-            </div>
+        <div class="second">
+            <input type="button" value="7" onclick="Run()">
+            <input type="button" value="8" onclick="Run()">
+            <input type="button" value="9" onclick="Run()">
+            <input type="button" value="*" onclick="Run()">
+        </div>
 
-            <div class="fourth">
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="+">
-            </div>
+        <div class="third">
+            <input type="button" value="4" onclick="Run()">
+            <input type="button" value="5" onclick="Run()">
+            <input type="button" value="6" onclick="Run()">
+            <input type="button" value="-" onclick="Run()">
+        </div>
 
+        <div class="fourth">
+            <input type="button" value="1" onclick="Run()">
+            <input type="button" value="2" onclick="Run()">
+            <input type="button" value="3" onclick="Run()">
+            <input type="button" value="+" onclick="Run()">
+        </div>
 
-            <div class="fifth">
-                <input type="button" value="0">
-                <input type="button" value="00">
-                <input style="width: 183px; background-color: forestgreen;" type="button" value="=">
-            </div>
-        </form>
+        <div class="fifth">
+            <input type="button" value="0" onclick="Run()">
+            <input type="button" value="00" onclick="Run()">
+            <input style="width: 186px; background-color: green;" type="button" value="=">
+            <!-- <input type="button" value="="> -->
+        </div>
     </div>
     </div>
 </body>
