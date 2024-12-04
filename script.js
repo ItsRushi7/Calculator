@@ -1,6 +1,6 @@
 let string = "";
+
 let input = document.getElementById("text");
-console.log(input);
 let buttons = document.querySelectorAll("button");
 
 Array.from(buttons).forEach((button) => {
@@ -9,11 +9,20 @@ Array.from(buttons).forEach((button) => {
             string = '';
             input.value = string;
         }
-        else if (e.target.innerHTML ==  "=") {
+        else if (e.target.innerHTML == "=") {
+
             string = eval(string);
-            input.value=string;
+
+            if (string == undefined) {
+
+                input.value = '';
+            }
+            else {
+                input.value = string;
+            }
+
         }
-        else{
+        else {
             string = string + e.target.innerHTML;
             input.value = string;
         }
