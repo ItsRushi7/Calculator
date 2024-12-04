@@ -17,15 +17,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 450px;
+    max-width: 427px;
     margin: 60px auto;
     padding-bottom: 3px;
 }
-
+.main{
+    background-color: red;
+}
 .main input {
     border-radius: 8px;
     background-color: white;
-    width: 450px;
+    max-width: 426px;
     height: 150px;
     margin: auto;
     font-size: 40px;
@@ -42,29 +44,25 @@ body {
     justify-content: space-evenly;
 }
 
-.first input,
-.second input,
-.third input,
-.fourth input,
-.fifth input {
+.first button,
+.second button,
+.third button,
+.fourth button,
+.fifth button {
     background: transparent;
     color: beige;
     cursor: pointer;
-    font-size: 20px;
-    height: 60px;
-    width: 80px;
-    margin: 10px 8px;
+    font-size: 15px;
+    height: 50px;
+    width: 70px;
+    margin: 6px 8px;
 }
 
 
-@media(max-width:400px) {
+@media(max-width:500px) {
 
-    .container {
-        margin: 0px;
-    }
-
-    .main input {
-        width: 375px;
+    .main input{
+        max-width: 375px;
     }
 
     .first input,
