@@ -21,9 +21,7 @@ body {
     margin: 60px auto;
     padding-bottom: 3px;
 }
-.main{
-    background-color: red;
-}
+
 .main input {
     border-radius: 8px;
     background-color: white;
@@ -62,7 +60,7 @@ body {
 @media(max-width:500px) {
 
     .main input{
-        max-width: 375px;
+        max-width: 385px;
     }
 
     .first input,
