@@ -15,7 +15,8 @@ Array.from(buttons).forEach((button) => {
 
             if (string == undefined) {
 
-                input.value = '';
+                string = '';
+                input.value = string;
             }
             else {
                 input.value = string;
